@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Neon tasks",
+    "description": "Floating cyberpunk to-do folder in the bottom-right corner of the web UI, styled with spring green #00ff88, gray #757575 and yellow #ffff00 on liquid-glass cards with a metallic rim and a stacked folder layout. Click the round glass node to open the folder: add a task and press Enter, pick a deadline chip (no DDL / +2h / tonight / tomorrow) or click a row's deadline tag to cycle it, toggle the round checkbox, click a tag to cycle priority P1–P3, hover a row for edit and delete buttons, and filter with ALL / ACTIVE / DONE. Completing a task drops XP scaled by priority and by the combo multiplier (chained kills within 2 minutes), raises your level, and plays a synthesized kill blip; a level-up shows a toast and a fanfare. The folder tab shows your level, the bar under the header shows XP progress, and the collapsed node pulses when a deadline is overdue. A speaker button mutes or unmutes the sounds. Tasks and progress are saved through the local host route /api/neon-tasks/state into the profile storage domain (JSON under the DSH storages directory) and survive restarts; a localStorage copy keeps working while the host route is unreachable. All data stays on this machine. Disabling the plugin hides the widget and stops its sync writes; stored tasks remain on disk.",
+    "detail": "docs/DETAIL.md"
+  }
+}

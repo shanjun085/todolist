@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <defs>
+    <pattern id="nt-grid" width="32" height="25" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V25" fill="none" stroke="#757575" stroke-opacity="0.08"/>
+    </pattern>
+    <pattern id="nt-scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1.2" fill="#757575" opacity="0.06"/>
+    </pattern>
+    <linearGradient id="nt-vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141c17" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a100c" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="nt-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00ff88"/>
+      <stop offset="0.22" stop-color="#00ff88" stop-opacity="0.45"/>
+      <stop offset="0.45" stop-color="#757575"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.56" stop-color="#757575"/>
+      <stop offset="0.8" stop-color="#ffff00" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#00ff88"/>
+    </linearGradient>
+    <linearGradient id="nt-glass" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#00ff88" stop-opacity="0.18"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="0.62" stop-color="#ffff00" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#00ff88" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="nt-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4dffb0"/>
+      <stop offset="1" stop-color="#00ff88"/>
+    </linearGradient>
+    <linearGradient id="nt-tab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4dffb0"/>
+      <stop offset="0.62" stop-color="#7dffc2"/>
+      <stop offset="1" stop-color="#08a463"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="300" fill="#141c17"/>
+  <rect width="640" height="300" fill="url(#nt-grid)"/>
+
+  <!-- stacked back cards -->
+  <g>
+    <rect x="113" y="45" width="404" height="236" rx="16" fill="#18211b" fill-opacity="0.9" stroke="#757575" stroke-opacity="0.6" transform="rotate(-1.8 315 163)"/>
+    <rect x="121" y="42" width="404" height="236" rx="16" fill="#18211b" fill-opacity="0.55" stroke="#757575" stroke-opacity="0.4" transform="rotate(1.4 323 160)"/>
+  </g>
+
+  <!-- folder index tab -->
+  <g>
+    <rect x="132" y="27" width="92" height="23" rx="7" fill="url(#nt-tab)" stroke="#00ff88" stroke-width="0.5"/>
+    <rect x="132" y="46" width="92" height="4" rx="2" fill="url(#nt-tab)"/>
+    <circle cx="146" cy="38.5" r="3" fill="#ffff00"/>
+    <circle cx="158" cy="38.5" r="3" fill="#757575"/>
+  </g>
+
+  <!-- metallic rim + glass body -->
+  <rect x="118" y="40" width="404" height="240" rx="16" fill="none" stroke="url(#nt-metal)" stroke-width="3"/>
+  <rect x="120" y="42" width="400" height="236" rx="14.5" fill="#18211b" fill-opacity="0.82"/>
+  <rect x="120" y="42" width="400" height="236" rx="14.5" fill="url(#nt-glass)"/>
+  <rect x="120" y="42" width="400" height="236" rx="14.5" fill="url(#nt-scan)"/>
+  <polygon points="120,42 340,42 240,278 120,278" fill="#ffffff" opacity="0.05"/>
+
+  <!-- header: liquid-metal title + subtitle -->
+  <rect x="134" y="56" width="118" height="17" rx="8.5" fill="url(#nt-fill)"/>
+  <rect x="134" y="56" width="118" height="5" rx="2.5" fill="#ffffff" opacity="0.5"/>
+  <rect x="134" y="80" width="52" height="9" rx="4.5" fill="#ffff00"/>
+  <rect x="192" y="82" width="86" height="6" rx="3" fill="#757575" opacity="0.9"/>
+  <path d="M472 58 h9" stroke="#00ff88" stroke-width="2" stroke-linecap="round"/>
+  <rect x="494" y="52" width="24" height="20" rx="6" fill="none" stroke="#757575" stroke-opacity="0.7"/>
+  <path d="M500 62 h12" stroke="#757575" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- xp line under the header -->
+  <rect x="134" y="96" width="300" height="4" rx="2" fill="#757575" opacity="0.22"/>
+  <rect x="134" y="96" width="170" height="4" rx="2" fill="url(#nt-fill)"/>
+  <rect x="442" y="96" width="22" height="4" rx="2" fill="#757575" opacity="0.4"/>
+
+  <!-- status line -->
+  <rect x="134" y="108" width="140" height="4" rx="2" fill="#757575" opacity="0.5"/>
+  <circle cx="482" cy="110" r="3.5" fill="#00ff88"/>
+  <rect x="494" y="107" width="40" height="6" rx="3" fill="#757575" opacity="0.4"/>
+
+  <!-- entry line -->
+  <rect x="134" y="122" width="372" height="30" rx="9" fill="#ffffff" opacity="0.05" stroke="#757575" stroke-opacity="0.5"/>
+  <path d="M143 131 l5 6 -5 6" fill="none" stroke="#00ff88" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="156" y="134" width="120" height="6" rx="3" fill="#8b9d93" opacity="0.6"/>
+
+  <!-- ddl quick picks -->
+  <g>
+    <rect x="134" y="158" width="90" height="16" rx="6" fill="rgba(255,255,255,0.04)" stroke="#757575" stroke-opacity="0.35"/>
+    <rect x="144" y="164" width="52" height="4" rx="2" fill="#8b9d93" opacity="0.5"/>
+    <rect x="229" y="158" width="90" height="16" rx="6" fill="rgba(255,255,255,0.04)" stroke="#757575" stroke-opacity="0.35"/>
+    <rect x="239" y="164" width="52" height="4" rx="2" fill="#8b9d93" opacity="0.5"/>
+    <rect x="324" y="158" width="90" height="16" rx="6" fill="rgba(0,255,136,0.16)" stroke="#00ff88" stroke-opacity="0.8"/>
+    <rect x="334" y="164" width="52" height="4" rx="2" fill="#4dffb0"/>
+    <rect x="419" y="158" width="90" height="16" rx="6" fill="rgba(255,255,255,0.04)" stroke="#757575" stroke-opacity="0.35"/>
+    <rect x="429" y="164" width="52" height="4" rx="2" fill="#8b9d93" opacity="0.5"/>
+  </g>
+
+  <!-- filters -->
+  <g>
+    <rect x="134" y="182" width="62" height="22" rx="8" fill="url(#nt-fill)"/>
+    <rect x="146" y="190" width="38" height="6" rx="3" fill="#08130d"/>
+    <rect x="202" y="182" width="62" height="22" rx="8" fill="#ffffff" opacity="0.04" stroke="#757575" stroke-opacity="0.45"/>
+    <rect x="213" y="190" width="40" height="6" rx="3" fill="#a9b8af" opacity="0.6"/>
+    <rect x="270" y="182" width="62" height="22" rx="8" fill="#ffffff" opacity="0.04" stroke="#757575" stroke-opacity="0.45"/>
+    <rect x="282" y="190" width="38" height="6" rx="3" fill="#a9b8af" opacity="0.6"/>
+  </g>
+
+  <!-- task rows -->
+  <g>
+    <rect x="134" y="212" width="17" height="17" rx="8.5" fill="#ffffff" opacity="0.06" stroke="#757575" stroke-opacity="0.8"/>
+    <rect x="160" y="217" width="150" height="7" rx="3.5" fill="#eef7f1" opacity="0.85"/>
+    <rect x="318" y="212" width="44" height="17" rx="6" fill="rgba(0,255,136,0.1)" stroke="#00ff88" stroke-opacity="0.65"/>
+    <rect x="325" y="218.5" width="30" height="4" rx="2" fill="#00ff88"/>
+    <rect x="442" y="212" width="30" height="17" rx="6" fill="#ffffff" opacity="0.05" stroke="#ffff00" stroke-opacity="0.6"/>
+    <rect x="451" y="218.5" width="12" height="4" rx="2" fill="#ffff00"/>
+
+    <rect x="134" y="240" width="17" height="17" rx="8.5" fill="url(#nt-fill)"/>
+    <path d="M138.5 249 l3.4 3.6 6 -8.5" fill="none" stroke="#ffff00" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter"/>
+    <rect x="160" y="245" width="170" height="7" rx="3.5" fill="#8b9d93" opacity="0.75"/>
+    <rect x="160" y="247.5" width="170" height="2" fill="#ffff00" opacity="0.8"/>
+    <rect x="442" y="240" width="30" height="17" rx="6" fill="#ffffff" opacity="0.05" stroke="#00ff88" stroke-opacity="0.6"/>
+    <rect x="451" y="246.5" width="12" height="4" rx="2" fill="#00ff88"/>
+  </g>
+
+  <g stroke="#757575" stroke-opacity="0.25" stroke-dasharray="3 6">
+    <path d="M134 233 H494"/>
+  </g>
+
+  <!-- footer: progress + sound + purge -->
+  <rect x="134" y="267" width="180" height="6" rx="3" fill="#757575" opacity="0.25"/>
+  <rect x="134" y="267" width="104" height="6" rx="3" fill="url(#nt-fill)"/>
+  <rect x="134" y="267" width="104" height="2.5" rx="1.25" fill="#ffffff" opacity="0.5"/>
+  <rect x="330" y="263" width="24" height="14" rx="5" fill="rgba(255,255,255,0.04)" stroke="#757575" stroke-opacity="0.4"/>
+  <circle cx="342" cy="270" r="3" fill="#ffff00" opacity="0.85"/>
+  <rect x="432" y="262" width="72" height="15" rx="7" fill="#ffffff" opacity="0.04" stroke="#ffff00" stroke-opacity="0.6"/>
+  <rect x="443" y="267.5" width="50" height="4.5" rx="2.25" fill="#ffff00"/>
+
+  <rect width="640" height="300" fill="url(#nt-vig)"/>
+</svg>

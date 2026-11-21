@@ -1,0 +1,3 @@
+- insert:
+    - id: neon-tasks
+      name: '@local/neon-tasks'

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <!-- folder index tab, spring green #00ff88 -->
+  <rect x="8" y="1.5" width="10" height="5.5" rx="1.8" fill="#00ff88"/>
+  <circle cx="13" cy="4.2" r="1.2" fill="#ffff00"/>
+  <!-- glass folder frame: cut-corner square outline, green -->
+  <path d="M11 3.5 H25 L32.5 11 V25 L25 32.5 H11 L3.5 25 V11 Z"
+        fill="none" stroke="#00ff88" stroke-width="2" stroke-linejoin="miter"/>
+  <!-- check: first stroke green, second yellow #ffff00 -->
+  <path d="M11.5 18.8 L16.2 23.4 L25.5 13.4"
+        fill="none" stroke="#00ff88" stroke-width="3.4" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M16.2 23.4 L25.5 13.4"
+        fill="none" stroke="#ffff00" stroke-width="3.4" stroke-linecap="square" stroke-linejoin="miter"/>
+  <!-- priority dot, gray #757575 -->
+  <circle cx="26.4" cy="9.6" r="1.9" fill="#757575"/>
+</svg>

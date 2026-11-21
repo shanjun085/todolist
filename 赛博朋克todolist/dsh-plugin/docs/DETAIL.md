@@ -1,0 +1,1 @@
+![Cyberpunk palette to-do folder: stacked liquid-glass cards with a green-to-gray-to-yellow metallic rim, a folder tab with level dots, glass task rows with round checkboxes, deadline and priority tags, an XP progress line and a pink progress bar](preview.svg)
